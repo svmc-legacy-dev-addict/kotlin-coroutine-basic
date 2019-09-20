@@ -9,13 +9,21 @@
                                                    tools:showIn="@layout/activity_main">
 
     <Button
-            android:id="@+id/testContinuation"
+            android:id="@+id/backWithResult"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Invoke"
+            android:text="Back with result"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+            android:id="@+id/backWithResultException"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back with exception"
+            app:layout_constraintLeft_toLeftOf="@id/backWithResult"
+            app:layout_constraintTop_toBottomOf="@id/backWithResult"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

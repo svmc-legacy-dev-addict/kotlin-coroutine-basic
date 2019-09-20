@@ -46,10 +46,10 @@ class CoroutineTest {
 //            test.testChainCall()
 
             // async
-//            test.testAsyncCall()
+            test.testAsyncCall()
 
             // dispatcher - CoroutineContext
-            test.testDispatchers()
+//            test.testDispatchers()
 
         }
     }
